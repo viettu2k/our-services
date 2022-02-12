@@ -21,7 +21,7 @@ body {
 
 .card-container {
     display: grid;
-    grid-template-columns: repeat( auto-fit, minmax(240px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     /*repeat each card, automatically calculate width, for each card min width is 240px and max width will automatically get calculated*/
     grid-gap: 15px;
     /*apply 15px gap between the card on each side*/
@@ -44,7 +44,7 @@ body {
 
 .card-container .card .card-icon span {
     margin: 10px 0px;
-    /*apply margin of 10px on y-axix and 0px on x-axis*/
+    /*apply margin of 10px on y-axis and 0px on x-axis*/
     font-size: 32px;
     color: #00cc99;
 }
